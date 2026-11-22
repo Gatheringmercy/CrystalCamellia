@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<link rel="icon" href="data:," />
+<title>The Crystal Camellia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#FFF6F4; --surface:#FFFFFF; --surface-soft:#FDF0EE;
+    --blush:#F9DDE4; --blush-deep:#F3C6D2; --rose:#E9A9BC;
+    --accent:#B4466B; --accent-deep:#8E3355; --on-accent:#FFFFFF;
+    --text:#4B2A36; --muted:#7A5563; --gold:#9A7B34;
+    --line:rgba(75,42,54,.16); --flag-bg:#FDF3D7; --flag-text:#6E5510; --flag-line:#D9BE6A;
+    --shadow:0 10px 30px rgba(180,70,107,.10);
+    --serif:'Cormorant Garamond',Georgia,serif; --sans:'Jost',system-ui,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#221116; --surface:#301A22; --surface-soft:#2A161E;
+      --blush:#47222F; --blush-deep:#54303E; --rose:#9C5F76;
+      --accent:#E58CA9; --accent-deep:#F0A8BF; --on-accent:#2A1219;
+      --text:#F8E9ED; --muted:#CBA3B0; --gold:#D9B878;
+      --line:rgba(248,233,237,.18); --flag-bg:#3D3312; --flag-text:#EAD88F; --flag-line:#8A7434;
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} }
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:300;line-height:1.6;font-size:16px}
+  /* Falling diamonds background video */
+  .bg-video{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;pointer-events:none}
+  .bg-tint{position:fixed;inset:0;z-index:0;pointer-events:none;background:color-mix(in srgb, var(--bg) 84%, transparent)}
+  .hero,main,footer{position:relative;z-index:1}
+  img,video{max-width:100%}
+  a{color:var(--accent)}
+  button{font:inherit;min-height:40px;cursor:pointer}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+  /* Top bar */
+  .topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb, var(--bg) 94%, transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+  .topbar-in{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding-top:12px;padding-bottom:12px}
+  .wordmark{font-family:var(--serif);font-size:29px;font-weight:600;color:var(--accent);letter-spacing:.01em;line-height:1.1;text-decoration:none}
+  .wordmark small{display:block;font-family:var(--sans);font-size:11.5px;font-weight:400;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+  .top-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .pill{display:inline-flex;align-items:center;min-height:32px;padding:5px 13px;border-radius:999px;background:var(--blush);border:1px solid var(--rose);font-size:13px;font-weight:500;color:var(--text)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 20px;border-radius:10px;border:1px solid var(--accent);background:var(--accent);color:var(--on-accent);font-weight:500;text-decoration:none;font-size:15px}
+  .btn.ghost{background:transparent;color:var(--accent)}
+  .btn:hover{filter:brightness(1.06)}
+
+  /* Hero */
+  .hero{position:relative;overflow:hidden;background:#2A1219}
+  .hero video,.hero .poster{width:100%;height:min(74vh,560px);object-fit:cover;display:block}
+  .hero .poster{display:none}
+  .hero .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(42,13,24,.18) 40%,rgba(42,13,24,.72));display:flex;align-items:flex-end}
+  .hero-in{padding-top:34px;padding-bottom:40px;color:#FFF6F8;width:100%}
+  .hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(38px,6.4vw,62px);line-height:1.05;margin:0 0 10px}
+  .hero p{max-width:620px;font-size:clamp(16px,2.4vw,18.5px);margin:0 0 20px;color:#FBE9EE}
+  .hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero .btn.ghost{border-color:#F3C6D2;color:#FFF;background:rgba(42,13,24,.25)}
+
+  /* Notice + stats */
+  .notice{background:var(--surface);border:1px solid var(--rose);border-radius:14px;padding:18px 20px;margin:26px 0 0;box-shadow:var(--shadow)}
+  .notice b{color:var(--accent);font-weight:600}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:14px;margin:18px 0 6px}
+  .stat{background:var(--surface-soft);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .stat .n{font-family:var(--serif);font-size:34px;font-weight:600;color:var(--accent);line-height:1}
+  .stat .l{font-size:14px;color:var(--muted);margin-top:6px}
+
+  section{padding:44px 0 6px}
+  h2.sec{font-family:var(--serif);font-size:clamp(28px,4.4vw,38px);font-weight:600;color:var(--accent);margin:0 0 8px;line-height:1.15}
+  .lede{max-width:760px;margin:0 0 18px;color:var(--text)}
+  .fine{font-size:14px;color:var(--muted)}
+
+  /* Designer style */
+  .ds-band{background:linear-gradient(135deg,var(--blush) 0%,var(--surface-soft) 78%);border:1px solid var(--rose);border-radius:16px;padding:26px 24px;margin-top:8px}
+  .ds-band h2{margin-top:0}
+  .honest{background:var(--surface);border:1px solid var(--gold);border-radius:10px;padding:13px 16px;font-size:15px;margin:14px 0}
+  .honest b{color:var(--accent)}
+  /* Sale & blowout */
+  .sale-band{background:linear-gradient(135deg,var(--accent-deep) 0%,var(--accent) 82%);border:1px solid var(--accent-deep);border-radius:16px;padding:26px 24px;margin-top:8px;color:var(--on-accent)}
+  .sale-band h2.sec{color:var(--on-accent)}
+  .sale-band .fine{color:var(--on-accent);opacity:.85}
+  .sale-band .card{box-shadow:none}
+  .sale-band .btn{background:var(--on-accent);color:var(--accent-deep);border-color:var(--on-accent)}
+  .tag.sale{background:var(--accent);color:var(--on-accent);border:1px solid var(--accent)}
+  .finishes{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px}
+  .finishes span{border:1px solid var(--rose);background:var(--surface);border-radius:999px;padding:6px 13px;font-size:13.5px;min-height:32px;display:inline-flex;align-items:center}
+
+  /* Departments */
+  .depts{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,255px),1fr));gap:14px}
+  .dept{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;text-align:left;width:100%;color:var(--text);display:block}
+  button.dept:hover{border-color:var(--accent)}
+  .dept h3{font-family:var(--serif);font-size:21px;font-weight:600;color:var(--accent);margin:0 0 2px;line-height:1.2}
+  .dept .vendor{font-size:13.5px;color:var(--muted);margin:0 0 8px}
+  .dept .row{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+  .dept .target{font-size:13px;color:var(--muted)}
+  .status{font-size:12.5px;font-weight:600;padding:4px 10px;border-radius:999px;min-height:26px;display:inline-flex;align-items:center}
+  .status.in{background:var(--blush);color:var(--accent-deep);border:1px solid var(--rose)}
+  @media (prefers-color-scheme: dark){ .status.in{color:var(--accent-deep)} }
+  .status.soon{background:transparent;color:var(--muted);border:1px solid var(--line)}
+  .status.hold{background:var(--flag-bg);color:var(--flag-text);border:1px solid var(--flag-line)}
+
+  /* Shop */
+  .shop-tools{display:flex;flex-direction:column;gap:14px;margin:6px 0 4px}
+  .search{width:100%;max-width:460px;min-height:46px;padding:11px 15px;border:1px solid var(--rose);border-radius:10px;font:inherit;background:var(--surface);color:var(--text)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{border:1px solid var(--rose);background:var(--surface);color:var(--text);border-radius:999px;padding:8px 16px;font-size:14.5px;min-height:40px}
+  .chip[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent);font-weight:500}
+  .chip .c{opacity:.75;font-size:12.5px}
+  .countline{color:var(--muted);font-size:14.5px;margin:10px 0 0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,208px),1fr));gap:16px;margin-top:16px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;box-shadow:0 2px 10px rgba(75,42,54,.04)}
+  .card .ph{background:#FFF;border-radius:8px;height:190px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .card .ph img{width:100%;height:100%;object-fit:contain}
+  .card .nm{font-weight:400;font-size:14.5px;line-height:1.4;margin:10px 0 4px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;min-height:60px}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin:2px 0 6px}
+  .tag{font-size:11.5px;font-weight:600;letter-spacing:.02em;padding:3px 9px;border-radius:999px;min-height:24px;display:inline-flex;align-items:center}
+  .tag.ds{background:var(--blush);color:var(--accent-deep);border:1px solid var(--rose)}
+  .tag.verify{background:var(--flag-bg);color:var(--flag-text);border:1px solid var(--flag-line)}
+  .price{color:var(--accent);font-weight:600;font-size:17px}
+  .meta{font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.45}
+  .buy{margin-top:auto;padding-top:10px}
+  .buy button{width:100%;min-height:44px;border:1px solid var(--accent);background:transparent;color:var(--accent);border-radius:9px;font-weight:500}
+  .buy button:hover{background:var(--accent);color:var(--on-accent)}
+  .buy a{display:flex;align-items:center;justify-content:center;width:100%;min-height:44px;border:1px solid var(--accent);background:transparent;color:var(--accent);border-radius:9px;font-weight:500;text-decoration:none}
+  .buy a:hover{background:var(--accent);color:var(--on-accent)}
+  .more-row{text-align:center;margin:26px 0 4px}
+  .empty{border:1px dashed var(--rose);border-radius:12px;padding:26px;text-align:center;color:var(--muted);margin-top:16px}
+
+  /* Info columns */
+  .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px;margin-top:6px}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 22px}
+  .panel h3{font-family:var(--serif);font-size:23px;color:var(--accent);margin:0 0 8px;font-weight:600}
+  .panel p,.panel li{font-size:15px}
+  .panel ol,.panel ul{margin:8px 0 0;padding-left:20px}
+  .panel li{margin-bottom:6px}
+  table.plan{width:100%;border-collapse:collapse;font-size:14.5px;margin-top:8px}
+  table.plan th,table.plan td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  table.plan th{font-weight:600;color:var(--accent)}
+  footer{border-top:1px solid var(--line);margin-top:52px;padding:28px 0 40px;text-align:center;color:var(--muted);font-size:14px}
+  footer .fname{font-family:var(--serif);font-size:20px;color:var(--accent);font-weight:600}
+  #toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--text);color:var(--bg);padding:13px 20px;border-radius:10px;display:none;max-width:min(92vw,520px);text-align:center;font-size:15px;z-index:50;box-shadow:var(--shadow)}
+</style>
+</head>
+<body>
+
+<video class="bg-video" id="bgVideo" src="assets/bg-diamonds.mp4" muted loop autoplay playsinline preload="auto" aria-hidden="true" tabindex="-1"></video>
+<div class="bg-tint" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="wordmark" href="#top">The Crystal Camellia<small>A gift site — gifts for everybody</small></a>
+    <div class="top-actions">
+      <span class="pill">Draft preview — not live yet</span>
+      <a class="btn" href="#shop" style="min-height:40px;padding:8px 16px">Shop the preview</a>
+    </div>
+  </div>
+</header>
+
+<div id="top" class="hero">
+  <video id="heroVideo" src="assets/hero-gifts.mp4" poster="assets/hero-poster.jpg" muted loop autoplay playsinline preload="metadata" aria-label="Inside The Crystal Camellia gift shop — candles, gift sets, jewelry, headphones, gift boxes, pajamas, a Christmas tree and perfume"></video>
+  <img class="poster" id="heroPoster" src="assets/hero-poster.jpg" alt="Inside The Crystal Camellia gift shop — candles, gift sets, jewelry, headphones, gift boxes, pajamas, a Christmas tree and perfume" />
+  <div class="shade">
+    <div class="wrap hero-in">
+      <h1>Gifts for everybody.</h1>
+      <div class="hero-cta">
+        <a class="btn" href="#shop">Browse the preview</a>
+        <a class="btn ghost" href="#sale">Christmas Flash Sale</a>
+        <a class="btn ghost" href="#designer">Designer Style picks</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- Christmas Flash Sale -->
+  <section id="sale" aria-labelledby="sale-h">
+    <div class="sale-band">
+      <h2 class="sec" id="sale-h">Christmas Flash Sale</h2>
+      <div class="grid" id="saleGrid" aria-label="Sale and blowout picks"></div>
+      <div class="more-row"><button class="btn" id="saleAll" type="button">See all Christmas Flash Sale pieces</button></div>
+    </div>
+  </section>
+
+  
+  <!-- Christmas Gift Sets -->
+  <section id="gift-sets" aria-labelledby="gs-h">
+    <h2 class="sec" id="gs-h">Christmas Gift Sets</h2>
+    <p class="fine">Coming soon — no gift sets in the store yet.</p>
+  </section>
+
+<!-- Designer Style -->
+  <section id="designer" aria-labelledby="ds-h">
+    <div class="ds-band">
+      <h2 class="sec" id="ds-h">Designer Style</h2>
+      <div class="finishes" aria-label="Designer Style finishes">
+        <span>Gold-dipped &amp; gold-plated</span><span>Crystal &amp; cubic zirconia (CZ)</span><span>Pearl</span><span>Stainless steel</span><span>Semi-precious stone</span><span>Rhinestone &amp; pavé</span><span>Monogram</span><span>Quatrefoil clover motif</span>
+      </div>
+      <div class="grid" id="dsGrid" aria-label="Featured Designer Style pieces"></div>
+      <div class="more-row"><button class="btn" id="dsAll" type="button">See all Designer Style pieces</button></div>
+    </div>
+  </section>
+
+  <!-- Departments -->
+  <section id="departments" aria-labelledby="dept-h">
+    <h2 class="sec" id="dept-h">Departments</h2>
+    <div class="depts" id="deptGrid"></div>
+  </section>
+
+  <!-- Shop -->
+  <section id="shop" aria-labelledby="shop-h">
+    <h2 class="sec" id="shop-h">Shop the preview</h2>
+    <div class="shop-tools">
+      <input class="search" id="q" type="search" placeholder="Search gifts — try ‘earrings’, ‘pearl’, ‘scarf’, ‘gift set’…" aria-label="Search products" />
+      <div class="chips" id="chips" role="group" aria-label="Filter by department"></div>
+    </div>
+    <p class="countline" id="countLine">Loading the catalogue…</p>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="emptyBox" hidden>No products match that search. Try a shorter word — or clear the department filter.</div>
+    <div class="more-row"><button class="btn ghost" id="moreBtn" type="button" hidden>Show more products</button></div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fname">The Crystal Camellia</div>
+    <p>A gift site — gifts for everybody.</p>
+  </div>
+</footer>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  "use strict";
+  var PRODUCTS = [], dept = "All", shown = 48, PAGE = 48;
+  var DS_RE = /(gold (dipped|plated|filled)|crystal|\bCZ\b|cubic zirconia|pearl|stainless steel|rhinestone|pav[eé]|monogram|\binitial\b|quatrefoil|turquoise|opal|mother of pearl|jade|agate|onyx|amethyst|quartz|moonstone|carnelian|hematite|malachite|lapis|garnet|topaz|sapphire|emerald|ruby|coral|abalone|tiger'?s eye)/i;
+  var SALE_MAX = 20;
+  var DEPTS = ["All","Christmas Flash Sale","Designer Style","Jewelry","Accessories","Gift Sets","Bath, Body & Massage","Home & Comfort","Christmas Gifts","Pajamas & Loungewear","For Men"];
+
+  var DEPARTMENTS = [
+    {name:"Christmas Flash Sale", target:"Lowest prices in the store", vendor:"The 143 cheapest pieces in the preview", filter:"Christmas Flash Sale", sale:true},
+    {name:"Jewelry", target:"Target 250 drafts", vendor:"Wona Trading (New York) · A La Mode (California)", filter:"Jewelry", inCount:200},
+    {name:"Accessories", target:"Target 120 drafts", vendor:"Scarves, purses, watches, sunglasses, belts, hats, gloves, hair — Wona Trading", filter:"Accessories", inCount:150},
+    {name:"Gift Sets", target:"Target 60 drafts · flagship", vendor:"Built from approved items · Alder Creek & baskets below", status:"Coming soon"},
+    {name:"Gift Baskets", target:"Target 40 drafts", vendor:"Alder Creek Gift Baskets (California) — wholesale prices to confirm in writing", status:"Coming soon"},
+    {name:"Coffee & Tea", target:"Target 40 drafts", vendor:"Temecula Coffee Roasters (California) — fresh-roasted, no monthly fee, no minimum", status:"Coming soon"},
+    {name:"Food Gifts", target:"Target 40 drafts", vendor:"Bulk Beef Jerky (California) · Bangalla (Washington) — nuts, honey, dried fruit, jerky", status:"Coming soon"},
+    {name:"Pajamas & Loungewear", target:"Target 50 drafts", vendor:"Trendsi · CJ US warehouse · Silverts adaptive dusters", status:"Coming soon"},
+    {name:"Bath, Body & Massage", target:"Target 30 drafts", vendor:"Nalpac — tasteful bath & body and massage gifts only", filter:"Bath, Body & Massage", inCount:12},
+    {name:"Mugs, Teacups & Teapots", target:"Target 40 drafts", vendor:"CJ US warehouse · Printful / Printify for personalised mugs", status:"Coming soon"},
+    {name:"Candles, Home & Personalised", target:"Target 40 drafts", vendor:"Candle Builders (New Hampshire) · Wax & Wick (Chicago) · AE Wholesale", filter:"Home & Comfort", inCount:32, inLabel:"32 home pieces in preview"},
+    {name:"Stocking Stuffers & White Elephant", target:"Target 30 drafts", vendor:"Under $25, light and giftable — Nalpac lines · CJ US warehouse smalls", status:"Coming soon"},
+    {name:"For Men, Kids & Babies", target:"Target 30 drafts", vendor:"Men’s pieces in preview · Bambini Layette (California) newborn gift sets to come", filter:"For Men", inCount:8, inLabel:"8 men’s pieces in preview"},
+    {name:"Candy & Chocolate", target:"On hold", vendor:"Diana’s call — candy wholesale is buy-in-bulk, not dropship", status:"On hold", hold:true}
+  ];
+
+  function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function isDS(p){ return DS_RE.test(p.name||""); }
+  function isSale(p){ return !!p.flash_sale; }
+  function toast(msg){ var t=document.getElementById("toast"); t.textContent=msg; t.style.display="block"; clearTimeout(t._h); t._h=setTimeout(function(){ t.style.display="none"; },3400); }
+
+  function cardHTML(p){
+    var tags = "";
+    if (isSale(p)) tags += '<span class="tag sale">Flash Sale</span>';
+    if (isDS(p)) tags += '<span class="tag ds">Designer Style</span>';
+    if (!p.price_ok) tags += '<span class="tag verify">Price to verify</span>';
+    return '<article class="card">' +
+      '<div class="ph"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+'" loading="lazy" onerror="this.parentNode.style.display=\'none\'" /></div>' +
+      '<div class="nm">'+esc(p.name)+'</div>' +
+      (tags ? '<div class="tags">'+tags+'</div>' : '') +
+      '<div class="price">$'+esc(p.price)+'</div>' +
+      '<div class="meta">'+esc(p.dept)+' · '+esc(p.source)+'<br />SKU '+esc(p.sku)+' · '+esc(p.batch)+'</div>' +
+      '<div class="buy">' + (p.payment_link ? '<a href="'+esc(p.payment_link)+'" target="_blank" rel="noopener">Buy</a>' : '<button type="button" data-buy>Buy — coming soon</button>') + '</div>' +
+      '</article>';
+  }
+
+  function currentList(){
+    var q = (document.getElementById("q").value||"").trim().toLowerCase();
+    return PRODUCTS.filter(function(p){
+      if (dept === "Christmas Flash Sale"){ if (!isSale(p)) return false; }
+      else if (dept === "Designer Style"){ if (!isDS(p)) return false; }
+      else if (dept !== "All"){ if (p.dept !== dept) return false; }
+      if (q && (p.name+" "+p.dept+" "+p.cat+" "+p.sku+" "+p.source).toLowerCase().indexOf(q) === -1) return false;
+      return true;
+    });
+  }
+
+  function buildChips(){
+    var box = document.getElementById("chips");
+    box.innerHTML = DEPTS.map(function(d){
+      var n = d==="All" ? PRODUCTS.length : (d==="Christmas Flash Sale" ? PRODUCTS.filter(isSale).length : (d==="Designer Style" ? PRODUCTS.filter(isDS).length : PRODUCTS.filter(function(p){return p.dept===d;}).length));
+      if (d!=="All" && n===0) return "";
+      return '<button type="button" class="chip" data-dept="'+esc(d)+'" aria-pressed="'+(d===dept)+'">'+esc(d)+' <span class="c">'+n+'</span></button>';
+    }).join("");
+    var btns = box.querySelectorAll(".chip");
+    for (var i=0;i<btns.length;i++){ btns[i].addEventListener("click", function(){ setDept(this.getAttribute("data-dept")); }); }
+  }
+
+  function render(){
+    var list = currentList();
+    var grid = document.getElementById("grid");
+    grid.innerHTML = list.slice(0, shown).map(cardHTML).join("");
+    document.getElementById("emptyBox").hidden = list.length !== 0;
+    document.getElementById("countLine").textContent = list.length + " of " + PRODUCTS.length + " products shown" + (dept!=="All" ? " in “"+dept+"”" : "") + (list.length > shown ? " — showing the first " + shown + "." : ".");
+    document.getElementById("moreBtn").hidden = list.length <= shown;
+    var buys = grid.querySelectorAll("[data-buy]");
+    for (var i=0;i<buys.length;i++){ buys[i].addEventListener("click", function(){ toast("Checkout coming soon."); }); }
+  }
+
+  function setDept(d){ dept = d; shown = PAGE; buildChips(); render(); }
+
+  function buildDepts(){
+    document.getElementById("deptGrid").innerHTML = DEPARTMENTS.map(function(d){
+      var saleLabel = d.sale ? (PRODUCTS.length ? (PRODUCTS.filter(isSale).length+" pieces") : "Lowest prices in the preview") : null;
+      var status = d.hold ? '<span class="status hold">On hold</span>'
+        : (d.filter ? '<span class="status in">In preview · '+(saleLabel || d.inLabel || (d.inCount+" products"))+'</span>'
+        : '<span class="status soon">Coming soon</span>');
+      var inner = '<h3>'+esc(d.name)+'</h3><div class="row">'+status+'</div>';
+      if (d.filter) return '<button type="button" class="dept" data-filter="'+esc(d.filter)+'" aria-label="Shop '+esc(d.name)+' in the preview">'+inner+'</button>';
+      return '<div class="dept">'+inner+'</div>';
+    }).join("");
+    var cards = document.querySelectorAll(".dept[data-filter]");
+    for (var i=0;i<cards.length;i++){ cards[i].addEventListener("click", function(){
+      setDept(this.getAttribute("data-filter"));
+      document.getElementById("shop").scrollIntoView({behavior:"smooth"});
+    }); }
+  }
+
+  function buildDS(){
+    var ds = PRODUCTS.filter(isDS);
+    document.getElementById("dsGrid").innerHTML = ds.slice(0,8).map(cardHTML).join("");
+    var buys = document.querySelectorAll("#dsGrid [data-buy]");
+    for (var i=0;i<buys.length;i++){ buys[i].addEventListener("click", function(){ toast("Checkout coming soon."); }); }
+  }
+
+  function buildSale(){
+    var sale = PRODUCTS.filter(isSale).slice().sort(function(a,b){ return parseFloat(a.price) - parseFloat(b.price); });
+    document.getElementById("saleGrid").innerHTML = sale.slice(0,8).map(cardHTML).join("");
+    var buys = document.querySelectorAll("#saleGrid [data-buy]");
+    for (var i=0;i<buys.length;i++){ buys[i].addEventListener("click", function(){ toast("Checkout coming soon."); }); }
+  }
+
+  document.getElementById("q").addEventListener("input", function(){ shown = PAGE; render(); });
+  document.getElementById("moreBtn").addEventListener("click", function(){ shown += PAGE; render(); });
+  document.getElementById("dsAll").addEventListener("click", function(){ setDept("Designer Style"); document.getElementById("shop").scrollIntoView({behavior:"smooth"}); });
+  document.getElementById("saleAll").addEventListener("click", function(){ setDept("Christmas Flash Sale"); document.getElementById("shop").scrollIntoView({behavior:"smooth"}); });
+
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches){
+    var v = document.getElementById("heroVideo");
+    v.removeAttribute("autoplay"); v.pause(); v.style.display = "none";
+    document.getElementById("heroPoster").style.display = "block";
+    var bv = document.getElementById("bgVideo");
+    bv.removeAttribute("autoplay"); bv.pause(); bv.style.display = "none";
+  }
+
+  buildDepts();
+  fetch("products-live-verified-71.json") /* LIVE TONIGHT: verified prices only. Switch back to products.json (418) after Wona Batches 2-5 are verified. */.then(function(r){ if(!r.ok) throw new Error("load"); return r.json(); }).then(function(d){
+    PRODUCTS = d; buildChips(); buildDS(); buildSale(); buildDepts(); render();
+  }).catch(function(){
+    document.getElementById("countLine").textContent = "The catalogue could not be loaded in this preview. The full product list is in the Vercel-ready store files.";
+  });
+})();
+</script>
+</body>
+</html>
