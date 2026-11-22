@@ -1222,7 +1222,8 @@
     "flash_sale": true,
     "designer_style": true,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "45.99"
   },
   {
     "sku": "685699",
@@ -1240,7 +1241,8 @@
     "flash_sale": true,
     "designer_style": true,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "45.99"
   },
   {
     "sku": "685702",
@@ -1276,7 +1278,8 @@
     "flash_sale": true,
     "designer_style": false,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "39.99"
   },
   {
     "sku": "722498",
@@ -1312,7 +1315,8 @@
     "flash_sale": true,
     "designer_style": true,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "41.99"
   },
   {
     "sku": "722626",
@@ -1347,7 +1351,8 @@
     "flash_sale": true,
     "designer_style": true,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "45.99"
   },
   {
     "sku": "722718",
@@ -1365,7 +1370,8 @@
     "flash_sale": true,
     "designer_style": true,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "37.99"
   },
   {
     "sku": "722747",
@@ -1383,7 +1389,8 @@
     "flash_sale": true,
     "designer_style": true,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "41.99"
   },
   {
     "sku": "722690",
@@ -1401,7 +1408,8 @@
     "flash_sale": true,
     "designer_style": true,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "45.99"
   },
   {
     "sku": "721160",
@@ -1579,7 +1587,8 @@
     "flash_sale": true,
     "designer_style": true,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "39.99"
   },
   {
     "sku": "723043",
@@ -1687,7 +1696,8 @@
     "flash_sale": true,
     "designer_style": false,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "46.99"
   },
   {
     "sku": "723044",
@@ -1867,7 +1877,8 @@
     "flash_sale": true,
     "designer_style": true,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "46.99"
   },
   {
     "sku": "694202",
@@ -2010,7 +2021,8 @@
     "flash_sale": true,
     "designer_style": false,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "41.99"
   },
   {
     "sku": "723515",
@@ -2348,7 +2360,8 @@
     "flash_sale": true,
     "designer_style": false,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "41.99"
   },
   {
     "sku": "196204",
@@ -2492,7 +2505,8 @@
     "flash_sale": true,
     "designer_style": false,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "48.99"
   },
   {
     "sku": "310380",
@@ -2582,7 +2596,8 @@
     "flash_sale": true,
     "designer_style": false,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "37.99"
   },
   {
     "sku": "722103",
@@ -2618,7 +2633,8 @@
     "flash_sale": true,
     "designer_style": false,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "45.99"
   },
   {
     "sku": "693504",
@@ -2654,7 +2670,8 @@
     "flash_sale": true,
     "designer_style": false,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "43.99"
   },
   {
     "sku": "700113",
@@ -2762,7 +2779,8 @@
     "flash_sale": true,
     "designer_style": false,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "46.99"
   },
   {
     "sku": "720352",
@@ -2815,7 +2833,8 @@
     "flash_sale": true,
     "designer_style": false,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "46.99"
   },
   {
     "sku": "723371",
@@ -3049,7 +3068,8 @@
     "flash_sale": true,
     "designer_style": false,
     "payment_link": "",
-    "cost_verified": "2026-11-22 Wona per-piece"
+    "cost_verified": "2026-11-22 Wona per-piece",
+    "was_price": "41.99"
   },
   {
     "sku": "723363",
@@ -7169,7 +7189,7 @@
   {
     "sku": "10016182",
     "name": "Chic Chevron Stool",
-    "price": "150",
+    "price": "109.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/chic-chevron-stool-18.png",
     "cat": "Home Decor",
     "dept": "Home & Comfort",
@@ -7179,14 +7199,15 @@
     "cost_price": "84.5",
     "retail_proposed": "150",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "150"
   },
   {
     "sku": "10016683",
     "name": "Green Jar Candle Lantern",
-    "price": "55",
+    "price": "39.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/green-jar-candle-lantern-40.png",
     "cat": "Lanterns",
     "dept": "Home & Comfort",
@@ -7196,14 +7217,15 @@
     "cost_price": "27.95",
     "retail_proposed": "55",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "55"
   },
   {
     "sku": "10016809",
     "name": "Orion Ceramic Vase",
-    "price": "55",
+    "price": "39.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/orion-ceramic-vase-18.png",
     "cat": "Decorative Vases",
     "dept": "Home & Comfort",
@@ -7213,14 +7235,15 @@
     "cost_price": "29.95",
     "retail_proposed": "55",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "55"
   },
   {
     "sku": "10016951",
     "name": "Crown Heart Picture Frame 5 X 5",
-    "price": "55",
+    "price": "44.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/crown-heart-picture-frame-5-x-5-19.png",
     "cat": "Home Decor",
     "dept": "Home & Comfort",
@@ -7230,14 +7253,15 @@
     "cost_price": "35.6",
     "retail_proposed": "55",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "55"
   },
   {
     "sku": "10017345",
     "name": "Intermix Tray",
-    "price": "55",
+    "price": "44.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/intermix-tray-32.png",
     "cat": "Kitchen Items",
     "dept": "Home & Comfort",
@@ -7247,14 +7271,15 @@
     "cost_price": "35.5",
     "retail_proposed": "55",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "55"
   },
   {
     "sku": "10017368",
     "name": "Labyrinth Pewter Lantern",
-    "price": "75",
+    "price": "54.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/labyrinth-pewter-lantern-37.png",
     "cat": "Lanterns",
     "dept": "Home & Comfort",
@@ -7264,14 +7289,15 @@
     "cost_price": "39.5",
     "retail_proposed": "75",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "75"
   },
   {
     "sku": "10017609",
     "name": "Elegant Fleur De Lis Candle Stand Set - Perfect for Home Decor and Gifts",
-    "price": "55",
+    "price": "44.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/fleur-de-lis-duo-candle-stand-32.png",
     "cat": "Candle Holders",
     "dept": "Home & Comfort",
@@ -7281,14 +7307,15 @@
     "cost_price": "34.95",
     "retail_proposed": "55",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "55"
   },
   {
     "sku": "10017852",
     "name": "Intricate Fish Wall Decor",
-    "price": "125",
+    "price": "94.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/intricate-fish-wall-decor-28.png",
     "cat": "Coastal Decor",
     "dept": "Home & Comfort",
@@ -7298,9 +7325,10 @@
     "cost_price": "69.95",
     "retail_proposed": "125",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "125"
   },
   {
     "sku": "10017963",
@@ -7317,12 +7345,13 @@
     "price_status": "verified",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "40.00"
   },
   {
     "sku": "10018358",
     "name": "Gray Crackle Glass Table Lamp",
-    "price": "138.95",
+    "price": "109.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/gray-crackle-glass-table-lamp-22.png",
     "cat": "Home Decor",
     "dept": "Home & Comfort",
@@ -7332,14 +7361,15 @@
     "cost_price": "82.8",
     "retail_proposed": "138.95",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "138.95"
   },
   {
     "sku": "10018370",
     "name": "Vineyard 2-Tier Standing Tray",
-    "price": "100",
+    "price": "64.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/vineyard-2-tier-standing-tray-27.png",
     "cat": "Kitchen Items",
     "dept": "Home & Comfort",
@@ -7349,14 +7379,15 @@
     "cost_price": "45.5",
     "retail_proposed": "100",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "100"
   },
   {
     "sku": "10018382",
     "name": "White Wire Wall Shelf",
-    "price": "85",
+    "price": "64.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/white-wire-wall-shelf-32.png",
     "cat": "Wall Decor",
     "dept": "Home & Comfort",
@@ -7366,14 +7397,15 @@
     "cost_price": "47.9",
     "retail_proposed": "85",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "85"
   },
   {
     "sku": "10018524",
     "name": "Rose Metal Frame Caring Lantern",
-    "price": "45",
+    "price": "34.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/rose-metal-frame-caring-lantern-6.jpg",
     "cat": "Lanterns",
     "dept": "Home & Comfort",
@@ -7383,14 +7415,15 @@
     "cost_price": "26.95",
     "retail_proposed": "45",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45"
   },
   {
     "sku": "10018587",
     "name": "Farmhouse Rooster Decorative Plate - Rustic Kitchen Wall Decor",
-    "price": "85",
+    "price": "59.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/rooster-decorative-plate-16.jpg",
     "cat": "Collectibles",
     "dept": "Home & Comfort",
@@ -7400,14 +7433,15 @@
     "cost_price": "43.95",
     "retail_proposed": "85",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "85"
   },
   {
     "sku": "5001029",
     "name": "Monterey Day Dream Decorative Mirror",
-    "price": "200",
+    "price": "119.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/monterey-day-dream-decorative-mirror-7.png",
     "cat": "Wall Decor",
     "dept": "Home & Comfort",
@@ -7417,14 +7451,15 @@
     "cost_price": "85.68",
     "retail_proposed": "200",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "200"
   },
   {
     "sku": "5001030",
     "name": "Pomona Your Beautiful Smile Mirror",
-    "price": "150",
+    "price": "109.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/pomona-your-beautiful-smile-mirror-7.png",
     "cat": "Wall Decor",
     "dept": "Home & Comfort",
@@ -7434,14 +7469,15 @@
     "cost_price": "85.68",
     "retail_proposed": "150",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "150"
   },
   {
     "sku": "5001050",
     "name": "Storico Black And Gold Spike Sculptures",
-    "price": "65",
+    "price": "49.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/storico-black-and-gold-spike-sculptures-7.png",
     "cat": "Statues",
     "dept": "Home & Comfort",
@@ -7451,14 +7487,15 @@
     "cost_price": "37.8",
     "retail_proposed": "65",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "65"
   },
   {
     "sku": "5001092",
     "name": "South Beach Good Vibes Mirror Tray",
-    "price": "125",
+    "price": "89.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/south-beach-good-vibes-mirror-tray-7.png",
     "cat": "Kitchen Items",
     "dept": "Home & Comfort",
@@ -7468,14 +7505,15 @@
     "cost_price": "64.8",
     "retail_proposed": "125",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "125"
   },
   {
     "sku": "5001095",
     "name": "Positano Dream Big Mirror Tray",
-    "price": "95",
+    "price": "64.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/positano-dream-big-mirror-tray-7.png",
     "cat": "Kitchen Items",
     "dept": "Home & Comfort",
@@ -7485,14 +7523,15 @@
     "cost_price": "44.5",
     "retail_proposed": "95",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "95"
   },
   {
     "sku": "5001096",
     "name": "Positano Dream Big Large Mirror Tray",
-    "price": "125",
+    "price": "89.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/positano-dream-big-large-mirror-tray-7.png",
     "cat": "Kitchen Items",
     "dept": "Home & Comfort",
@@ -7502,14 +7541,15 @@
     "cost_price": "64.5",
     "retail_proposed": "125",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "125"
   },
   {
     "sku": "10018919",
     "name": "Modern White and Blue Splash Table Lamp - Stylish Lighting for Any Room",
-    "price": "147.95",
+    "price": "124.99",
     "img": "https://s.yimg.com/aah/yhst-38483213383664/white-blue-splash-table-lamp-7.png",
     "cat": "Wholesale Lamps",
     "dept": "Home & Comfort",
@@ -7519,8 +7559,9 @@
     "cost_price": "93.6",
     "retail_proposed": "147.95",
     "price_status": "verified",
-    "flash_sale": false,
+    "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "147.95"
   }
 ]
