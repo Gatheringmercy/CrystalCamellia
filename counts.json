@@ -1,6 +1,6 @@
 {
-  "total_preview": 418,
-  "total_live_verified": 418,
+  "total_preview": 439,
+  "total_live_verified": 439,
   "by_dept_preview": {
     "Accessories": 150,
     "Jewelry": 200,
@@ -17,7 +17,7 @@
   "designer_style_live": 39,
   "flash_sale_preview": 143,
   "flash_sale_live": 15,
-  "price_verified": 166,
+  "price_verified": 187,
   "price_to_verify": 252,
   "retail_proposed_range": [
     37.99,
@@ -27,5 +27,5 @@
     37.99,
     170.99
   ],
-  "note": "Full 418-item store. Batch 1 (71) + Batch 2 (95 found) costs verified; Batch 2 (9) not found in Wona search 2026-11-22, kept at listed cost. Batches 3-5 (242) + A La Mode (1) prices still unverified \u2014 fix later per Diana 2026-11-22."
+  "note": "Full store now 439: 418 Wona + 21 My Wholesale Gifts sale items (in stock). 3 MWG sale items HELD as questionable, not added: Buddha Table Lamp 15160, CALORIE FIGURE TRIMMER 10016679, Cage Liner Faux Fur CAMZ36500S \u2014 Diana to decide. Batches 3-5 (242) + A La Mode (1) + 9 Batch-2 not-found still price-to-fix later."
 }
