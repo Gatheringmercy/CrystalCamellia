@@ -1,6 +1,6 @@
 {
-  "total_preview": 439,
-  "total_live_verified": 439,
+  "total_preview": 437,
+  "total_live_verified": 437,
   "by_dept_preview": {
     "Accessories": 150,
     "Jewelry": 200,
@@ -27,5 +27,5 @@
     37.99,
     170.99
   ],
-  "note": "439 items. Flash Sale repriced 2026-11-22 (Diana approved $19.99 tier): 21 verified-cost Flash Sale items cut to $19.99 (cost $5-6.50) and 1 to $29.99 (MWG sconce $19.95). 15 linked Flash Sale items NOT repriced \u2014 their Stripe links are tied to old $37.99-$46.99 prices, need new links to reprice. 108 Flash Sale items left alone (costs unverified). Batches 3-5 (242) + A La Mode (1) + 9 Batch-2 not-found still price-to-fix later. Diana to review before launch."
+  "note": "437 items. Pulled 2026-11-22 per Diana (no Asian writing / overseas-looking): Kimono Poncho 584799 ($91.99) and Bamboo Knee High Socks 719659 ($51.99, also 6Pairs pack). Names in the file have no CJK characters; Asian writing would be in product photos, photo-by-photo check still to do. Flash Sale repriced: 21 items to $19.99, 1 to $29.99; 15 linked items not repriced (Stripe links tied to old prices)."
 }
