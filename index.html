@@ -269,6 +269,29 @@
   function isSale(p){ return !!p.flash_sale; }
   function toast(msg){ var t=document.getElementById("toast"); t.textContent=msg; t.style.display="block"; clearTimeout(t._h); t._h=setTimeout(function(){ t.style.display="none"; },3400); }
 
+  // One checkout for every product: the Buy button asks the site's checkout
+  // function for a Stripe payment page for that item — no per-product link.
+  function startCheckout(btn){
+    var name = btn.getAttribute("data-name") || "";
+    var cents = Math.round(parseFloat(btn.getAttribute("data-price") || "0") * 100);
+    var sku = btn.getAttribute("data-sku") || "";
+    if (!name || !cents) { toast("Sorry — that item can't be checked out yet."); return; }
+    btn.disabled = true;
+    var oldText = btn.textContent; btn.textContent = "Opening checkout…";
+    fetch("/api/create-checkout-session", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name: name, price_cents: cents, sku: sku })
+    }).then(function(r){ return r.json(); }).then(function(d){
+      if (d && d.url) { window.location.href = d.url; return; }
+      btn.disabled = false; btn.textContent = oldText;
+      toast("Checkout isn't ready yet — please try again in a moment.");
+    }).catch(function(){
+      btn.disabled = false; btn.textContent = oldText;
+      toast("Checkout isn't ready yet — please try again in a moment.");
+    });
+  }
+
   function cardHTML(p){
     var tags = "";
     if (isSale(p)) tags += '<span class="tag sale">Flash Sale</span>';
@@ -279,7 +302,7 @@
       (tags ? '<div class="tags">'+tags+'</div>' : '') +
       '<div class="price">'+(p.was_price ? '<span class="was">$'+esc(p.was_price)+'</span> ' : '')+'$'+esc(p.price)+'</div>' +
       '<div class="meta">'+esc(p.dept)+' · '+esc(p.cat)+'</div>' +
-      '<div class="buy">' + (p.payment_link ? '<a href="'+esc(p.payment_link)+'" target="_blank" rel="noopener">Buy</a>' : '<button type="button" data-buy>Buy — coming soon</button>') + '</div>' +
+      '<div class="buy">' + (p.payment_link ? '<a href="'+esc(p.payment_link)+'" target="_blank" rel="noopener">Buy</a>' : '<button type="button" data-buy data-name="'+esc(p.name)+'" data-price="'+esc(p.price)+'" data-sku="'+esc(p.sku||"")+'">Buy</button>') + '</div>' +
       '</article>';
   }
 
@@ -313,7 +336,7 @@
     document.getElementById("countLine").textContent = list.length + " of " + PRODUCTS.length + " products shown" + (dept!=="All" ? " in “"+dept+"”" : "") + (list.length > shown ? " — showing the first " + shown + "." : ".");
     document.getElementById("moreBtn").hidden = list.length <= shown;
     var buys = grid.querySelectorAll("[data-buy]");
-    for (var i=0;i<buys.length;i++){ buys[i].addEventListener("click", function(){ toast("Checkout coming soon."); }); }
+    for (var i=0;i<buys.length;i++){ buys[i].addEventListener("click", function(){ startCheckout(this); }); }
   }
 
   function setDept(d){ dept = d; shown = PAGE; buildChips(); render(); }
@@ -339,14 +362,14 @@
     var ds = PRODUCTS.filter(isDS);
     document.getElementById("dsGrid").innerHTML = ds.slice(0,8).map(cardHTML).join("");
     var buys = document.querySelectorAll("#dsGrid [data-buy]");
-    for (var i=0;i<buys.length;i++){ buys[i].addEventListener("click", function(){ toast("Checkout coming soon."); }); }
+    for (var i=0;i<buys.length;i++){ buys[i].addEventListener("click", function(){ startCheckout(this); }); }
   }
 
   function buildSale(){
     var sale = PRODUCTS.filter(isSale).slice().sort(function(a,b){ return parseFloat(a.price) - parseFloat(b.price); });
     document.getElementById("saleGrid").innerHTML = sale.slice(0,8).map(cardHTML).join("");
     var buys = document.querySelectorAll("#saleGrid [data-buy]");
-    for (var i=0;i<buys.length;i++){ buys[i].addEventListener("click", function(){ toast("Checkout coming soon."); }); }
+    for (var i=0;i<buys.length;i++){ buys[i].addEventListener("click", function(){ startCheckout(this); }); }
   }
 
   document.getElementById("q").addEventListener("input", function(){ shown = PAGE; render(); });
