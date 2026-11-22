@@ -1,31 +1,31 @@
 {
- "total_preview": 418,
- "total_live_verified": 71,
- "by_dept_preview": {
-  "Accessories": 150,
-  "Jewelry": 200,
-  "Home & Comfort": 32,
-  "Christmas Gifts": 16,
-  "Bath, Body & Massage": 12,
-  "For Men": 8
- },
- "by_dept_live": {
-  "Accessories": 56,
-  "Jewelry": 15
- },
- "designer_style_preview": 164,
- "designer_style_live": 39,
- "flash_sale_preview": 143,
- "flash_sale_live": 15,
- "price_verified": 71,
- "price_to_verify": 347,
- "retail_proposed_range": [
-  37.99,
-  170.99
- ],
- "retail_proposed_range_live": [
-  37.99,
-  170.99
- ],
- "note": "price = retail_proposed (provisional). cost_price is the supplier cost on file. 347 prices are unverified (Wona Batches 2-5 + 1 A La Mode) and must be verified in the Wona account before those items go live."
+  "total_preview": 418,
+  "total_live_verified": 418,
+  "by_dept_preview": {
+    "Accessories": 150,
+    "Jewelry": 200,
+    "Home & Comfort": 32,
+    "Christmas Gifts": 16,
+    "Bath, Body & Massage": 12,
+    "For Men": 8
+  },
+  "by_dept_live": {
+    "Accessories": 56,
+    "Jewelry": 15
+  },
+  "designer_style_preview": 164,
+  "designer_style_live": 39,
+  "flash_sale_preview": 143,
+  "flash_sale_live": 15,
+  "price_verified": 166,
+  "price_to_verify": 252,
+  "retail_proposed_range": [
+    37.99,
+    170.99
+  ],
+  "retail_proposed_range_live": [
+    37.99,
+    170.99
+  ],
+  "note": "Full 418-item store. Batch 1 (71) + Batch 2 (95 found) costs verified; Batch 2 (9) not found in Wona search 2026-11-22, kept at listed cost. Batches 3-5 (242) + A La Mode (1) prices still unverified \u2014 fix later per Diana 2026-11-22."
 }

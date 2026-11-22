@@ -363,7 +363,7 @@
   }
 
   buildDepts();
-  fetch("products-live-verified-71.json") /* LIVE TONIGHT: verified prices only. Switch back to products.json (418) after Wona Batches 2-5 are verified. */.then(function(r){ if(!r.ok) throw new Error("load"); return r.json(); }).then(function(d){
+  fetch("products-live-418.json") /* FULL STORE: all 418 items. Batch 2 costs corrected to Wona per-piece 2026-11-22; Batches 3-5 prices still to fix later per Diana. */.then(function(r){ if(!r.ok) throw new Error("load"); return r.json(); }).then(function(d){
     PRODUCTS = d; buildChips(); buildDS(); buildSale(); buildDepts(); render();
   }).catch(function(){
     document.getElementById("countLine").textContent = "The catalogue could not be loaded in this preview. The full product list is in the Vercel-ready store files.";
