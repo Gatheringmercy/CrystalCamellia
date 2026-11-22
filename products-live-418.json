@@ -1331,7 +1331,7 @@
     "cost_price": "18.00",
     "retail_proposed": "45.99",
     "price_status": "not_found_wona_2026-11-22",
-    "flash_sale": true,
+    "flash_sale": false,
     "designer_style": true,
     "payment_link": ""
   },
@@ -2144,7 +2144,7 @@
     "cost_price": "19.50",
     "retail_proposed": "48.99",
     "price_status": "not_found_wona_2026-11-22",
-    "flash_sale": true,
+    "flash_sale": false,
     "designer_style": true,
     "payment_link": ""
   },
@@ -2795,7 +2795,7 @@
     "cost_price": "18.75",
     "retail_proposed": "46.99",
     "price_status": "not_found_wona_2026-11-22",
-    "flash_sale": true,
+    "flash_sale": false,
     "designer_style": false,
     "payment_link": ""
   },
@@ -3092,7 +3092,7 @@
   {
     "sku": "527131",
     "name": "Triple Metal Snowman Pin Brooch Pendant",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20211006/thumb/BR9045-0002-@S@DUAL-225X175@-527131@525@015@200.jpg",
     "cat": "Brooches",
     "dept": "Jewelry",
@@ -3104,12 +3104,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "719060",
     "name": "Festive Christmas Ornament Cat Hat Pin Brooch",
-    "price": "37.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261002/thumb/BR0421-@SMT@18X21@719060@500@01@200.jpg",
     "cat": "Brooches",
     "dept": "Jewelry",
@@ -3121,12 +3122,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "37.99"
   },
   {
     "sku": "715865",
     "name": "Christmas Mitten Magnetic Brooch",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260907/thumb/BR138-@MT@MAG-125X21@715865@550@015@200.jpg",
     "cat": "Brooches",
     "dept": "Jewelry",
@@ -3138,12 +3140,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "713969",
     "name": "Marquise Stone Cluster Embellished Cross Pin Brooch Pendant",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260820/thumb/BR206-@GPL@DUAL-325X325@713969@625@01@200.jpg",
     "cat": "Brooches",
     "dept": "Jewelry",
@@ -3155,12 +3158,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "675237",
     "name": "Bold Rhinestone Flower Statement Brooch Pendant",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20250908/thumb/BR0055-@3PG@DUAL-275X375@-675237@575@02@200.jpg",
     "cat": "Brooches",
     "dept": "Jewelry",
@@ -3172,7 +3176,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "145434",
@@ -3194,7 +3199,7 @@
   {
     "sku": "713967",
     "name": "Rhinestone Pave Floral Brooch Pendant",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260820/thumb/BR120-@GCL@DUAL-25X3@713967@550@015@200.jpg",
     "cat": "Brooches",
     "dept": "Jewelry",
@@ -3206,12 +3211,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "209310",
     "name": "Floral Crystal Pave Bouquet Brooch Pendant",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20130823/thumb/BR06193-@BL@DUAL-275X4@209310-@525@025@200.jpg",
     "cat": "Brooches",
     "dept": "Jewelry",
@@ -3223,12 +3229,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "447855",
     "name": "Turtle Crystal Rhinestone Brooch Pendant",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20190715/thumb/BR1342-@GAB@DUAL-25X35@447855-@525@02@200.jpg",
     "cat": "Brooches",
     "dept": "Jewelry",
@@ -3240,12 +3247,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "722482",
     "name": "Bold Puffy Metal Heart Pendant Charm",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261104/thumb/P1200-@G@2X23X075@722482@550@01@200.jpg",
     "cat": "Pendant Sets",
     "dept": "Jewelry",
@@ -3257,12 +3265,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "680982",
     "name": "Metal Wave Circle Pendant Charm",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251031/thumb/P1069-@G@275L-2X21@680982@525@01@200.jpg",
     "cat": "Pendant Sets",
     "dept": "Jewelry",
@@ -3274,12 +3283,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "667440",
     "name": "Textured Layered Floral Pendant Bag Charm",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20250628/thumb/P1009-@S@3L-225X23@667440@600@01@200.jpg",
     "cat": "Pendant Sets",
     "dept": "Jewelry",
@@ -3291,12 +3301,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "527106",
     "name": "Metal Carriage Christmas Jingle Bell Accented Heart Pendant",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20211006/thumb/P7738-00-@MU@18X2@-527106@525@01@200.jpg",
     "cat": "Pendant Sets",
     "dept": "Jewelry",
@@ -3308,12 +3319,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "713874",
     "name": "Metal Tiger Face Cutout Pendant Charm",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260819/thumb/P1135-@S@275L-21X225@713874@525@01@200.jpg",
     "cat": "Pendant Sets",
     "dept": "Jewelry",
@@ -3325,7 +3337,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "686548",
@@ -3398,7 +3411,7 @@
   {
     "sku": "274093",
     "name": "Pink Ribbon Message Lens Pendant Set",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20150619/thumb/P1314-@AS-P@1X2-15L@-274093@575@015@200.jpg",
     "cat": "Pendant Sets",
     "dept": "Jewelry",
@@ -3410,7 +3423,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "587920",
@@ -3432,7 +3446,7 @@
   {
     "sku": "723002",
     "name": "Sequin Flower Pin Brooch Hair Clip Hair Band Bracelet",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261106/thumb/BR3244-@AQ@DUAL-6X6@723002@600@02@200.jpg",
     "cat": "Hair Accessories",
     "dept": "Accessories",
@@ -3444,7 +3458,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "722991",
@@ -3551,7 +3566,7 @@
   {
     "sku": "723001",
     "name": "Lace Trim Geometric Pattern Triangle Bandana Top Waist Wrap Scarf",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261106/thumb/S052-@GRN@435X215-100PO@723001@625@01@200.jpg",
     "cat": "Scarves",
     "dept": "Accessories",
@@ -3563,12 +3578,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "723000",
     "name": "Lace Trim Chain Print Triangle Bandana Top Waist Wrap Scarf",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261106/thumb/S051-@CAM@435X215-100PO@723000@625@01@200.jpg",
     "cat": "Scarves",
     "dept": "Accessories",
@@ -3580,12 +3596,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "722999",
     "name": "Lace Trim Polka Dot Triangle Bandana Top Waist Wrap Scarf",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261106/thumb/S050-@BLK@435X215-100PO@722999@625@01@200.jpg",
     "cat": "Scarves",
     "dept": "Accessories",
@@ -3597,12 +3614,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "722998",
     "name": "Lace Trim Abstract Pattern Triangle Bandana Top Waist Wrap Scarf",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261106/thumb/S049-@OLV@435X215-100PO@722998@625@01@200.jpg",
     "cat": "Scarves",
     "dept": "Accessories",
@@ -3614,12 +3632,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "722997",
     "name": "Lace Trim Leopard Pattern Triangle Bandana Top Waist Wrap Scarf",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261106/thumb/S048-@BRN@435X215-100PO@722997@625@01@200.jpg",
     "cat": "Scarves",
     "dept": "Accessories",
@@ -3631,12 +3650,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "722996",
     "name": "Lace Trim Paisley Pattern Triangle Bandana Top Waist Wrap Scarf",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261106/thumb/S047-@BRN@435X215-100PO@722996@625@01@200.jpg",
     "cat": "Scarves",
     "dept": "Accessories",
@@ -3648,12 +3668,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "721390",
     "name": "Western Polka Dot Print Beaded Fringe Triangle Bandana Scarf",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261027/thumb/S010-@BLK@25X425-100PO@721390@625@03@200.jpg",
     "cat": "Scarves",
     "dept": "Accessories",
@@ -3665,12 +3686,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "416890",
     "name": "Silk Feel Striped Leopard Chain Print Square Scarf",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20181121/thumb/S1012-@RD@42X42-100PO@416890@625@03@200.jpg",
     "cat": "Scarves",
     "dept": "Accessories",
@@ -3682,12 +3704,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "416884",
     "name": "Silk Feel Striped Leopard Print Square Scarf",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20181121/thumb/S1010-@BR@42X42-100PO@416884@625@03@200.jpg",
     "cat": "Scarves",
     "dept": "Accessories",
@@ -3699,12 +3722,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "680529",
     "name": "2PCS - CZ Ring Set",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251027/thumb/SR6025-@SV@CZ-2P-SIZE678-03H-02H-@680529@600@01@200.jpg",
     "cat": "Wedding & Bridal",
     "dept": "Jewelry",
@@ -3716,12 +3740,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "371351",
     "name": "2PCS - CZ Solitaire Bridal Ring Set",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20171213/thumb/SR4452-@GD@Size6789-7mm@371351@525@01@200.jpg",
     "cat": "Wedding & Bridal",
     "dept": "Jewelry",
@@ -3733,7 +3758,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "625863",
@@ -3806,7 +3832,7 @@
   {
     "sku": "689572",
     "name": "Round Cut CZ Statement Ring",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260122/thumb/SR6060-@GDCL@CZ-size78910-05H@689572@625@01@200.jpg",
     "cat": "Wedding & Bridal",
     "dept": "Jewelry",
@@ -3818,7 +3844,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "512464",
@@ -3840,7 +3867,7 @@
   {
     "sku": "573040",
     "name": "BRIDE Felt Back Seed Beaded Champagne Dangle Earrings",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20221103/thumb/FE1123-@GRN@INDIA-1X3@573040-@575@01@200.jpg",
     "cat": "Wedding & Bridal",
     "dept": "Jewelry",
@@ -3852,12 +3879,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "691741",
     "name": "Glitter Resin BRIDE Heart Drop Dangle Earrings",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260211/thumb/FE2856-@WHG@16X2@691741@625@015@200.jpg",
     "cat": "Wedding & Bridal",
     "dept": "Jewelry",
@@ -3869,12 +3897,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "634232",
     "name": "Mrs Rhinestone Embellished Message Dangle Earrings",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20240607/thumb/FE2731-@PK-G@18X17@634232@575@015@200.jpg",
     "cat": "Wedding & Bridal",
     "dept": "Jewelry",
@@ -3886,12 +3915,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "633107",
     "name": "Rhinestone Paved Flower Pointed Hand Chain Evening Bracelet",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20240528/thumb/EVB1171-@G-CRY@725H-7_35L@633107@600@015@200.jpg",
     "cat": "Wedding & Bridal",
     "dept": "Jewelry",
@@ -3903,7 +3933,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "633092",
@@ -3925,7 +3956,7 @@
   {
     "sku": "522519",
     "name": "BRIDE Gold Dipped Enamel Rectangle Message Pendant Necklace",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20210831/thumb/PDN2218-@G-BK-BRIDE@155_2L-125X025@-522519@600@01@200.jpg",
     "cat": "Wedding & Bridal",
     "dept": "Jewelry",
@@ -3937,7 +3968,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "723584",
@@ -4112,7 +4144,7 @@
   {
     "sku": "723734",
     "name": "Cozy Textured Chunky Faux Fur Winter Bucket Hat",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261117/thumb/H22023-@01@ONESIZE-100PO@723734@575@01@200.jpg",
     "cat": "Hats",
     "dept": "Accessories",
@@ -4124,7 +4156,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "568642",
@@ -4163,7 +4196,7 @@
   {
     "sku": "723766",
     "name": "Fleece-lined Sparkly Ribbed Knit Winter Beanie Hat",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261117/thumb/H2103-@01@ONESZIE-100AC@723766@575@03@200.jpg",
     "cat": "Hats",
     "dept": "Accessories",
@@ -4175,7 +4208,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "723761",
@@ -4333,7 +4367,7 @@
   {
     "sku": "638065",
     "name": "Faux Leather Embossed Round Christmas Tree Ornament",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20240718/thumb/MS0350-@BR-MT@3X325-10L@638065@525@01@200.jpg",
     "cat": "Christmas",
     "dept": "Christmas Gifts",
@@ -4345,12 +4379,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "638060",
     "name": "Faux Leather Embossed Snowman Round Christmas Tree Ornament",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20240718/thumb/MS0345-@BR-MT@3X325-10L@638060@525@01@200.jpg",
     "cat": "Christmas",
     "dept": "Christmas Gifts",
@@ -4362,12 +4397,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "598322",
     "name": "HOHOHO Message Felt Back Seed Beaded Santa Hat Christmas Ornament",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20230621/thumb/MS009-@BLK-HOHOHO@INDIA-875L-125X375@598322@575@01@200.jpg",
     "cat": "Christmas",
     "dept": "Christmas Gifts",
@@ -4379,12 +4415,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "721889",
     "name": "MERRY CHRISTMAS Tree Bottle Opener Magnet",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261030/thumb/MS14-@GR@MAG-2X28@721889@550@01@200.jpg",
     "cat": "Christmas",
     "dept": "Christmas Gifts",
@@ -4396,7 +4433,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "611576",
@@ -4588,7 +4626,7 @@
   {
     "sku": "607123",
     "name": "Glittered Resin Star Santa Claus Rudolph Dangle Earrings",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20230927/thumb/FE4064-@BR@15X28@607123@600@015@200.jpg",
     "cat": "Christmas",
     "dept": "Christmas Gifts",
@@ -4600,7 +4638,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "711852",
@@ -4622,7 +4661,7 @@
   {
     "sku": "716021",
     "name": "Pearl Beard Santa Claus Charm Drop Dangle Earrings",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260908/thumb/FE5153-@PK@07X14@716021@550@01@200.jpg",
     "cat": "Christmas",
     "dept": "Christmas Gifts",
@@ -4634,12 +4673,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "711856",
     "name": "Christmas Gingerbread Gift Box Candy Cane Charm Link Drop Earrings",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260804/thumb/FE5858-@GDPK@07X3@711856@625@01@200.jpg",
     "cat": "Christmas",
     "dept": "Christmas Gifts",
@@ -4651,7 +4691,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "716322",
@@ -4860,7 +4901,7 @@
   {
     "sku": "721001",
     "name": "Leopard Faux Fur Headwrap Ear Warmer Headband",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261022/thumb/HDH691-@BRN@ONESIZE-100PO@721001@550@015@200.jpg",
     "cat": "Earmuffs",
     "dept": "Accessories",
@@ -4872,7 +4913,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "616954",
@@ -4928,7 +4970,7 @@
   {
     "sku": "698307",
     "name": "2Pairs - Exfoliating Foot Peeling Masks",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260401/thumb/MS67170-@FOOT@2P-1.35FL.OZ-40ML@698307@600@03@200.jpg",
     "cat": "Cosmetics",
     "dept": "Bath, Body & Massage",
@@ -4940,7 +4982,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "698305",
@@ -4962,7 +5005,7 @@
   {
     "sku": "698075",
     "name": "Hyaluronic Acid Booster Serum",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260330/thumb/MS003-@HYALURONIC@30ML-1.0FL.OZ@698075@550@02@200.jpg",
     "cat": "Cosmetics",
     "dept": "Bath, Body & Massage",
@@ -4974,12 +5017,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "698074",
     "name": "Collagen Booster Serum",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260330/thumb/MS002-@COLLAGEN@30ML-1.0FL.OZ@698074@550@02@200.jpg",
     "cat": "Cosmetics",
     "dept": "Bath, Body & Massage",
@@ -4991,12 +5035,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "698073",
     "name": "Vitamin C Booster Serum",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260330/thumb/MS001-@VITAMIN@30ML-1.0FL.OZ@698073@550@02@200.jpg",
     "cat": "Cosmetics",
     "dept": "Bath, Body & Massage",
@@ -5008,12 +5053,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "698077",
     "name": "Zero Effect Mild Exfoliant Peeling Gel",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260330/thumb/MS001-@PEELING@100ML_3.38FL.OZ@698077@575@035@200.jpg",
     "cat": "Cosmetics",
     "dept": "Bath, Body & Massage",
@@ -5025,12 +5071,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "698076",
     "name": "Zero Effect Deep Clean Cleansing Foam",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260330/thumb/MS001-@CLEANSING@100ML_3.38FL.OZ@698076@575@035@200.jpg",
     "cat": "Cosmetics",
     "dept": "Bath, Body & Massage",
@@ -5042,12 +5089,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "637629",
     "name": "Aqua Skin Sunscreen Weightless Moisturizer",
-    "price": "48.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20240716/thumb/MSOASS-001-@SUNSCREEN@KOREA-1.69fl.oz-50ml@637629@650@02@200.jpg",
     "cat": "Cosmetics",
     "dept": "Bath, Body & Massage",
@@ -5059,7 +5107,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "48.99"
   },
   {
     "sku": "689093",
@@ -5081,7 +5130,7 @@
   {
     "sku": "694043",
     "name": "40 Shade Eyeshadow Palette",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260226/thumb/MS9820-@ASST@40P-925X63@694043@625@06@200.jpg",
     "cat": "Cosmetics",
     "dept": "Bath, Body & Massage",
@@ -5093,7 +5142,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "665903",
@@ -5217,7 +5267,7 @@
   {
     "sku": "671203",
     "name": "Heart Charm Dangle Double Pearl Beaded Loop Bow Keychain / Bag Charm",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20250731/thumb/K1764-@RD@4X5-55L@671203@525@015@200.jpg",
     "cat": "Keychains",
     "dept": "Accessories",
@@ -5229,12 +5279,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "669712",
     "name": "Leopard Bow Pom Pom Multi Beaded Resin Heart Charm Drop Keychain / Bag Charm",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20250717/thumb/K136-@RH-WHT@4X4-6L@669712@575@015@200.jpg",
     "cat": "Keychains",
     "dept": "Accessories",
@@ -5246,12 +5297,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "684043",
     "name": "Double Heart Charm Drop Rope Keychain Bag Charm",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251202/thumb/K090-@GHP@115L@684043@525@015@200.jpg",
     "cat": "Keychains",
     "dept": "Accessories",
@@ -5263,12 +5315,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "684052",
     "name": "Heart Bow Charm Drop Rope Knot Keychain Bag Charm",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251202/thumb/K102-@GPK@95L@684052@525@015@200.jpg",
     "cat": "Keychains",
     "dept": "Accessories",
@@ -5280,12 +5333,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "684047",
     "name": "Double Heart Charm Drop Rope Knot Keychain Bag Charm",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251202/thumb/K100-@GCM@95L@684047@525@015@200.jpg",
     "cat": "Keychains",
     "dept": "Accessories",
@@ -5297,12 +5351,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "684039",
     "name": "Heart Charm Drop Faux Leather Wristlet Keychain Bag Charm",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251202/thumb/MS097-@GBK@9L@684039@600@015@200.jpg",
     "cat": "Keychains",
     "dept": "Accessories",
@@ -5314,12 +5369,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "651079",
     "name": "Metal Bow Pearl Beaded Heart Keychain / Bag Charm",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20241218/thumb/K038-@GD-CRM@32L-225X225@651079@525@01@200.jpg",
     "cat": "Keychains",
     "dept": "Accessories",
@@ -5331,7 +5387,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "689156",
@@ -5387,7 +5444,7 @@
   {
     "sku": "722562",
     "name": "Stainless Steel Beaded Chain Anklet",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261104/thumb/AK088-S-@SV@STEEL-025H-85_125L@722562@550@01@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5399,12 +5456,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "710682",
     "name": "Stainless Steel Classic Hoop Earrings",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260724/thumb/ME144-S-@SV@STEEL-09X09@710682@550@01@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5416,12 +5474,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "649697",
     "name": "Stainless Steel Dome Crescent Earrings",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20241130/thumb/ME210-S-@SV@STEEL-11X1@649697@525@01@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5433,12 +5492,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "722572",
     "name": "Stainless Steel Engraved Screw Motif Hinged Bangle Bracelet",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261104/thumb/MB081-S-@GD@STEEL-02H-24D@722572@625@01@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5450,12 +5510,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "707666",
     "name": "Stainless Steel Hammered Bird Statement Earrings",
-    "price": "48.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260629/thumb/ME022-@GD@STEEL-18X26@707666@650@01@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5467,12 +5528,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "48.99"
   },
   {
     "sku": "684264",
     "name": "Stainless Steel Hammered Wide Cuff Bracelet",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251203/thumb/CFB270-S-@GD@STEEL-CUFF-14H-26D@684264@575@02@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5484,12 +5546,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "696690",
     "name": "Stainless Steel Heart Charm Beaded Chain Necklace",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260317/thumb/MN1787-@G@17_2L-08X08@696690@625@01@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5501,12 +5564,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "719000",
     "name": "Stainless Steel Layered Ring Drop Earrings",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261002/thumb/ME210-@GD@STEEL-12X18@719000@600@01@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5518,12 +5582,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "707648",
     "name": "Stainless Steel Pearl Tip Twisted Cable Cuff Bracelet",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260629/thumb/CFB097-@GCM@STEEL-CUFF-04H-2D@707648@550@01@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5535,12 +5600,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "722050",
     "name": "Stainless Steel Puffy Heart Clip On Earrings",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261031/thumb/CE570-S-@GD-CLIP@STEEL-1X08@722050@625@015@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5552,12 +5618,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "722564",
     "name": "Stainless Steel Ribbed Hinged Bangle Bracelet",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261104/thumb/MB248-@GD@HGD-05H-23D@722564@550@01@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5569,12 +5636,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "649679",
     "name": "Stainless Steel Teardrop Pendant Necklace",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20241130/thumb/PDN399-S-@SV@STEEL-165_2L-08X025@649679@575@01@200.jpg",
     "cat": "Stainless Steel",
     "dept": "Jewelry",
@@ -5586,7 +5654,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "718944",
@@ -5829,7 +5898,7 @@
   {
     "sku": "652616",
     "name": "14K Gold Plated Two Tone CZ Stone Paved Heart Stud Earrings",
-    "price": "48.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20250114/thumb/SE9378-@EK@CZ-07X06@652616@650@01@200.jpg",
     "cat": "Cubic Zirconia",
     "dept": "Jewelry",
@@ -5841,12 +5910,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "48.99"
   },
   {
     "sku": "723360",
     "name": "Gold Dipped Teardrop CZ Stud Earrings",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261112/thumb/SE5467-@GCR@CZ-025X03@723360@625@01@200.jpg",
     "cat": "Cubic Zirconia",
     "dept": "Jewelry",
@@ -5858,12 +5928,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "686723",
     "name": "White Gold Dipped CZ Stone Paved Open Butterfly Carabiner Paperclip Link Chain Anklet",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260102/thumb/AK8155-@RCR@CZ-075H-9_25L@686723@600@01@200.jpg",
     "cat": "Cubic Zirconia",
     "dept": "Jewelry",
@@ -5875,12 +5946,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "686721",
     "name": "White Gold Dipped CZ Stone Paved Open Cross Carabiner Paperclip Link Chain Anklet",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260102/thumb/AK8154-@RCR@CZ-07H-85_25L@686721@600@01@200.jpg",
     "cat": "Cubic Zirconia",
     "dept": "Jewelry",
@@ -5892,12 +5964,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "699724",
     "name": "Organic Shaped Pearl Accent Semi Precious Pebble Stone Beaded Choker Necklace",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260415/thumb/CN4899-@GDHOW@14_2L-04L@699724@600@01@200.jpg",
     "cat": "Semi-Precious",
     "dept": "Jewelry",
@@ -5909,12 +5982,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "464791",
     "name": "Semi Precious Natural Stone Heart Dangle Earrings",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20191107/thumb/FE2-7185-@BLA@06X13@464791-@525@01@200.jpg",
     "cat": "Semi-Precious",
     "dept": "Jewelry",
@@ -5926,12 +6000,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "705494",
     "name": "Semi Precious Stone Beaded Necklace",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260604/thumb/FN5570-@GDWOP@145_2L-04L@705494@625@01@200.jpg",
     "cat": "Semi-Precious",
     "dept": "Jewelry",
@@ -5943,7 +6018,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "712826",
@@ -5965,7 +6041,7 @@
   {
     "sku": "712832",
     "name": "Semi-Precious Teardrop Stone Pendant Necklace",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260812/thumb/PDN0198-@GDBKA@1525_35L-08X05@712832@550@01@200.jpg",
     "cat": "Semi-Precious",
     "dept": "Jewelry",
@@ -5977,7 +6053,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "668937",
@@ -6033,7 +6110,7 @@
   {
     "sku": "682785",
     "name": "Bold Boho Vintage Inspired Oval Stone Ornate Statement Necklace",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251118/thumb/FN5501-@RD@17_2L-5L-175L@682785@525@02@200.jpg",
     "cat": "Western",
     "dept": "Jewelry",
@@ -6045,12 +6122,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "684152",
     "name": "Enamel Glitter Mardi Gras Western Hat Boot Drop Dangle Earrings",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251203/thumb/FE3-2747-@GD@08X175@684152@575@01@200.jpg",
     "cat": "Western",
     "dept": "Jewelry",
@@ -6062,12 +6140,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "714096",
     "name": "Western Boho Heart Multi Stone Charm Station Toggle Bracelet",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260821/thumb/CB04486-@SBMT@75_075L-12L@714096@600@02@200.jpg",
     "cat": "Western",
     "dept": "Jewelry",
@@ -6079,7 +6158,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "707169",
@@ -6101,7 +6181,7 @@
   {
     "sku": "678794",
     "name": "-B- Stainless Steel Monogram Pendant Necklace",
-    "price": "48.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251007/thumb/PDN061-S-@B-GD@STEEL-18L-03L@678794@650@01@200.jpg",
     "cat": "Monogram",
     "dept": "Jewelry",
@@ -6113,12 +6193,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "48.99"
   },
   {
     "sku": "538917",
     "name": "-D- Initial Monogram Genuine Shell Rectangle Pendant Necklace",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20220112/thumb/PDN7-2269-@D-GD@16_3L-05X075@538917-@525@01@200.jpg",
     "cat": "Monogram",
     "dept": "Jewelry",
@@ -6130,12 +6211,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "554775",
     "name": "-F- Gold Dipped Metal Initial Monogram Rhinestone Oval Link Pendant Necklace",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20220517/thumb/PDN2512-@F-GC@155_2L-035X07@-554775@525@01@200.jpg",
     "cat": "Monogram",
     "dept": "Jewelry",
@@ -6147,12 +6229,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "678800",
     "name": "-H- Stainless Steel Monogram Pendant Necklace",
-    "price": "48.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251007/thumb/PDN061-S-@H-GD@STEEL-18L-03L@678800@650@01@200.jpg",
     "cat": "Monogram",
     "dept": "Jewelry",
@@ -6164,12 +6247,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "48.99"
   },
   {
     "sku": "678818",
     "name": "-Z- Stainless Steel Monogram Pendant Necklace",
-    "price": "48.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251007/thumb/PDN061-S-@Z-GD@STEEL-18L-03L@678818@650@01@200.jpg",
     "cat": "Monogram",
     "dept": "Jewelry",
@@ -6181,7 +6265,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "48.99"
   },
   {
     "sku": "704502",
@@ -6220,7 +6305,7 @@
   {
     "sku": "709998",
     "name": "Pearl Horse Lipstick Lock Bag Charm Embellished Letter H Pin Brooch",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260718/thumb/BR2254-@GDBLU@23X225@709998@550@02@200.jpg",
     "cat": "Monogram",
     "dept": "Jewelry",
@@ -6232,7 +6317,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "704622",
@@ -6254,7 +6340,7 @@
   {
     "sku": "699928",
     "name": "Bold 12mm Rhinestone Pave Miami Cuban Mariner Link Chain Necklace",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260415/thumb/FN2219-@S@20_05L-05L@699928@550@018@200.jpg",
     "cat": "Men's",
     "dept": "For Men",
@@ -6266,7 +6352,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "699919",
@@ -6288,7 +6375,7 @@
   {
     "sku": "699922",
     "name": "Bold 15mm Rhinestone Pave Zigzag Cuban Link Chain Necklace",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260415/thumb/FN2215-@S@20_05L-06L@699922@550@02@200.jpg",
     "cat": "Men's",
     "dept": "For Men",
@@ -6300,12 +6387,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "699925",
     "name": "Bold 20mm Rhinestone Pave Miami Cuban Link Chain Necklace",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260415/thumb/FN2217-@G@20_05L-06L@699925@550@02@200.jpg",
     "cat": "Men's",
     "dept": "For Men",
@@ -6317,7 +6405,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "699829",
@@ -6543,7 +6632,7 @@
   {
     "sku": "481889",
     "name": "Solid Color Trim Stylish Face Shield / Visor Sun Hat",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20200626/thumb/H3410-@BLU@155X925@481889@550@04@200.jpg",
     "cat": "Beach",
     "dept": "Jewelry",
@@ -6555,7 +6644,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "584007",
@@ -6628,7 +6718,7 @@
   {
     "sku": "682990",
     "name": "Enamel Message Candy Heart Link Drop Earrings",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251119/thumb/FE5756-@GD@06X275@682990@525@015@200.jpg",
     "cat": "Valentine's Day",
     "dept": "Jewelry",
@@ -6640,7 +6730,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "430119",
@@ -6662,7 +6753,7 @@
   {
     "sku": "723080",
     "name": "Heart Pendant Accent Faceted Beaded Necklace",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261107/thumb/FN8477-@CL@17_2L-1X11@723080@550@01@200.jpg",
     "cat": "Valentine's Day",
     "dept": "Jewelry",
@@ -6674,12 +6765,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "690246",
     "name": "Lips Lipstick LOVE Rhinestone Pave Heart Pin Brooch",
-    "price": "46.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260130/thumb/BR2219-@GDPNK@2X21@690246@625@01@200.jpg",
     "cat": "Valentine's Day",
     "dept": "Jewelry",
@@ -6691,12 +6783,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "46.99"
   },
   {
     "sku": "681644",
     "name": "Stone Paved LOVE YOU Heart Dangle Earrings",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20251105/thumb/FE219-@GD-PNK@16X2@681644@525@01@200.jpg",
     "cat": "Valentine's Day",
     "dept": "Jewelry",
@@ -6708,12 +6801,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "723275",
     "name": "Triple Heart Gem Link Drop Threader Earrings",
-    "price": "37.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261110/thumb/FE0523-@GDMLT@04X23@723275@500@01@200.jpg",
     "cat": "Valentine's Day",
     "dept": "Jewelry",
@@ -6725,7 +6819,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "37.99"
   },
   {
     "sku": "721666",
@@ -6815,7 +6910,7 @@
   {
     "sku": "473158",
     "name": "Love you Mom Charm Multi Bead Bracelet",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20200124/thumb/MBB09013-@ASRED@125H-75_1L@473158@600@02@200.jpg",
     "cat": "Mother's Day",
     "dept": "Jewelry",
@@ -6827,7 +6922,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "721143",
@@ -6866,7 +6962,7 @@
   {
     "sku": "722511",
     "name": "Mother and Daughters Inspirational Message Quatrefoil Charm Accent Stretch Bracelet",
-    "price": "37.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261104/thumb/MSB03972-@ASMT@STR-03H@722511@500@01@200.jpg",
     "cat": "Mother's Day",
     "dept": "Jewelry",
@@ -6878,7 +6974,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "37.99"
   },
   {
     "sku": "701890",
@@ -6917,7 +7014,7 @@
   {
     "sku": "585892",
     "name": "World's Best Mom Felt Back Beaded Star Message Link Dangle Earrings",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20230314/thumb/FE5309-@BUR@INDIA-225X25@-585892@525@015@200.jpg",
     "cat": "Mother's Day",
     "dept": "Jewelry",
@@ -6929,12 +7026,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "696051",
     "name": "Football Charm Accent Dainty Beaded Game Day Chain Necklace",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260311/thumb/FN2693-@BKRD@165_225L-03L@696051@550@01@200.jpg",
     "cat": "Sports / Game Day",
     "dept": "Jewelry",
@@ -6946,7 +7044,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "719277",
@@ -6968,7 +7067,7 @@
   {
     "sku": "721409",
     "name": "Game Day Triple Tassel Layered Dangle Earrings",
-    "price": "39.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261027/thumb/FE10868-@NFL@15X325@721409@525@015@200.jpg",
     "cat": "Sports / Game Day",
     "dept": "Jewelry",
@@ -6980,7 +7079,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "39.99"
   },
   {
     "sku": "686264",
@@ -7002,7 +7102,7 @@
   {
     "sku": "719276",
     "name": "Rhinestone Pave Football Helmet Drop Earrings",
-    "price": "45.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20261005/thumb/FE3188-@CLG@06X16@719276@600@01@200.jpg",
     "cat": "Sports / Game Day",
     "dept": "Jewelry",
@@ -7014,7 +7114,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "45.99"
   },
   {
     "sku": "668233",
@@ -7053,7 +7154,7 @@
   {
     "sku": "663175",
     "name": "American USA Cushion Square Stone Stretch Evening Bracelet",
-    "price": "43.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20250505/thumb/EVB0202-@FLAG@STR-04H@663175@575@02@200.jpg",
     "cat": "Patriotic & Flag",
     "dept": "Jewelry",
@@ -7065,12 +7166,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "43.99"
   },
   {
     "sku": "705641",
     "name": "Patriotic Beaded Necklace",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260606/thumb/FN606-@GDRED@16_3L-03L@705641@550@01@200.jpg",
     "cat": "Patriotic & Flag",
     "dept": "Jewelry",
@@ -7082,12 +7184,13 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "703077",
     "name": "Rhinestone Studded Patriotic USA Letter Drop Earrings",
-    "price": "41.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260512/thumb/FE2756-@GD@1X33@703077@550@01@200.jpg",
     "cat": "Patriotic & Flag",
     "dept": "Jewelry",
@@ -7099,7 +7202,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": true,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "41.99"
   },
   {
     "sku": "687736",
@@ -7121,7 +7225,7 @@
   {
     "sku": "698038",
     "name": "USA Letter Embroidered Mini Canvas Tote Bag Keychain Bag Charm",
-    "price": "48.99",
+    "price": "19.99",
     "img": "https://www.wonatrading.com/images/20260330/thumb/FSB2608-@LDENIM@4.72X3.54X1.38-2L-58L-100CO@698038@650@015@200.jpg",
     "cat": "Patriotic & Flag",
     "dept": "Jewelry",
@@ -7133,7 +7237,8 @@
     "price_status": "to_verify",
     "flash_sale": true,
     "designer_style": false,
-    "payment_link": ""
+    "payment_link": "",
+    "was_price": "48.99"
   },
   {
     "sku": "581396",
