@@ -272,13 +272,12 @@
     var tags = "";
     if (isSale(p)) tags += '<span class="tag sale">Flash Sale</span>';
     if (isDS(p)) tags += '<span class="tag ds">Designer Style</span>';
-    if (!p.price_ok) tags += '<span class="tag verify">Price to verify</span>';
     return '<article class="card">' +
       '<div class="ph"><img src="'+esc(p.img)+'" alt="'+esc(p.name)+'" loading="lazy" onerror="this.parentNode.style.display=\'none\'" /></div>' +
       '<div class="nm">'+esc(p.name)+'</div>' +
       (tags ? '<div class="tags">'+tags+'</div>' : '') +
       '<div class="price">$'+esc(p.price)+'</div>' +
-      '<div class="meta">'+esc(p.dept)+' · '+esc(p.source)+'<br />SKU '+esc(p.sku)+' · '+esc(p.batch)+'</div>' +
+      '<div class="meta">'+esc(p.dept)+' · '+esc(p.cat)+'</div>' +
       '<div class="buy">' + (p.payment_link ? '<a href="'+esc(p.payment_link)+'" target="_blank" rel="noopener">Buy</a>' : '<button type="button" data-buy>Buy — coming soon</button>') + '</div>' +
       '</article>';
   }
